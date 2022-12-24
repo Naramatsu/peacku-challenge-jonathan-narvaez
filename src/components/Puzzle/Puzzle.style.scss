@@ -1,0 +1,24 @@
+.puzzle {
+  position: relative;
+  width: fit-content;
+
+  .search__section {
+    margin: 1em 0 2em;
+    position: relative;
+    color: #000;
+
+    .search__section__input {
+      display: flex;
+    }
+
+    input,
+    button {
+      padding: 0.5em;
+      cursor: pointer;
+    }
+
+    input {
+      width: -webkit-fill-available;
+    }
+  }
+}
