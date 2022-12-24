@@ -4,6 +4,9 @@
 `2.` Access the project and `npm install`.\
 `3.` After installing all the tools `npm start` and enjoy the app.
 
+## App deployed
+[Challenge](https://peacku-challenge-jonathan-narvaez.vercel.app/)
+
 ## Testing
 To verify the coverage you should run the next command `npm test -- --coverage`
 
