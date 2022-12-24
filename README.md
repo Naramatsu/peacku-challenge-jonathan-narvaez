@@ -1,3 +1,17 @@
+# Hello there!
+## Installation
+`1.` Please copy and paste this code `git clone https://github.com/Naramatsu/peacku-challenge-jonathan-narvaez.git` in a terminal on your desktop.\
+`2.` Access the project and `npm install`.\
+`3.` After installing all the tools `npm start` and enjoy the app.
+
+## Testing
+To verify the coverage you should run the next command `npm test -- --coverage`
+
+## To have in mind
+### node versioion `16.16.0`
+### npm version `9.1.2`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
