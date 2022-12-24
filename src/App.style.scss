@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+
+  &.dark {
+    background-color: #212f3c;
+    color: #fff;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+  }
+}
+
+.kromac-btn-app {
+  min-width: 110px !important;
+  margin: 0 !important;
+}
+
+div .kromac-btn {
+  @extend .kromac-btn-app;
+
+  &:hover,
+  &:active {
+    @extend .kromac-btn-app;
+  }
+}
+
+.toggle__theme {
+  position: fixed;
+  right: 4em;
+  bottom: 4em;
+  z-index: 100;
+}
+
+.btn__set__puzzle {
+  margin-bottom: 4em;
+
+  .error__message {
+    text-align: center;
+    margin: 1em auto;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.error__message {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: -22px;
+}
+
+@media (max-width: 896px) {
+  .App .container {
+    flex-direction: column;
+    align-items: center;
+
+    .attempts {
+      margin-bottom: 2em;
+    }
+  }
+}
