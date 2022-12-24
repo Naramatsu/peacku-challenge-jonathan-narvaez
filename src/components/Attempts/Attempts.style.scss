@@ -1,0 +1,56 @@
+.attempts {
+  position: relative;
+  width: 414px;
+
+  .kromac-panel {
+    height: 100%;
+    overflow: auto;
+  }
+
+  .attempts__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap: 15px;
+    color: #000;
+
+    .reload__icon {
+      font-size: 18px;
+      border-radius: 50%;
+      color: #2e86c1;
+      font-weight: bolder;
+      cursor: pointer;
+    }
+  }
+
+  .attempts__list {
+    margin: 1em auto;
+
+    .attempts__list__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      text-transform: uppercase;
+      border-bottom: solid 1px;
+      color: #000;
+
+      label {
+        font-size: 16px;
+
+        svg {
+          display: block;
+        }
+
+        &.valid {
+          color: #28b463;
+        }
+
+        &.invalid {
+          color: #cb4335;
+        }
+      }
+    }
+  }
+}
